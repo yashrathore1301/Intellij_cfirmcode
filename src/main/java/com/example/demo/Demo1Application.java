@@ -22,7 +22,7 @@ public class Demo1Application {
     @PostMapping
     public String addCustomer(@RequestBody Customer customer){
         service.insertCustomer(customer);
-        return "customer added";
+        return "New customer added";
 
     }
 
